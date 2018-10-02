@@ -28,6 +28,7 @@ public class AccelerometerHandler
         sensorManager = (SensorManager) act.getSystemService(Context.SENSOR_SERVICE);
         accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         sensorManager.registerListener(this, accelerometer, SensorManager.SENSOR_DELAY_UI);
+
     }
 
     @Override
