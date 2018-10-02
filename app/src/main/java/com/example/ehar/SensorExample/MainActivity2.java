@@ -79,7 +79,7 @@ public class MainActivity2
             }
             else {
                 Log.i("INFO: ", "Permission granted for location.");
-                location.initializeLocationManager();
+                //this.location.initializeLocationManager();
             }
     }
 }
